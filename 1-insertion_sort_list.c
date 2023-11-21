@@ -1,7 +1,8 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list - sorts an array of ints using bubble sort in ascending order
+ * insertion_sort_list - sorts an array of ints using insertion sort
+ *                       in ascending order
  * @list: linked-list of integers
  */
 void insertion_sort_list(listint_t **list)
