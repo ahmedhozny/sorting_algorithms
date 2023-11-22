@@ -24,7 +24,7 @@ void shell_sort(int *array, size_t size)
 				array[j - n] = array[j];
 				array[j] = temp;
 			}
-			print_array(array, size);
 		}
+		print_array(array, size);
 	}
 }
