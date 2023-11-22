@@ -42,24 +42,23 @@ void sorter(int *array, size_t size, int l, int r)
 int partition(int *array, size_t size, int l, int r)
 {
 	int pivot, i;
-	int idx = (int) l;
 
 	pivot = array[r];
-	for (i = idx; i <= r - 1; i++)
+	for (i = l; i < r; i++)
 	{
 		if (array[i] < pivot)
 		{
-			swap(array, idx, i);
-			if (idx != i)
+			swap(array, l, i);
+			if (array[l] != array[i])
 				print_array(array, size);
-			idx++;
+			l++;
 		}
 	}
 
-	swap(array, idx, r);
-	if (idx != i)
+	swap(array, l, r);
+	if (array[l] != array[i])
 		print_array(array, size);
-	return (idx);
+	return (l);
 }
 
 /**
