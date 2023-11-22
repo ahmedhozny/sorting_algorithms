@@ -8,3 +8,4 @@ This repository contains code for various sorting algorithms. The following list
 - Insert Sort
 - Selection Sort
 - Quick Sort
+- Shell Sort
