@@ -9,3 +9,4 @@ This repository contains code for various sorting algorithms. The following list
 - Selection Sort
 - Quick Sort
 - Shell Sort
+- Counting Sort
