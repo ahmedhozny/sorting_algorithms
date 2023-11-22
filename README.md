@@ -7,3 +7,4 @@ This repository contains code for various sorting algorithms. The following list
 - Bubble Sort
 - Insert Sort
 - Selection Sort
+- Quick Sort
